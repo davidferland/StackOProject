@@ -1,18 +1,29 @@
 # StackOProject
 
-Test driving .Net Core, SignalR, PostgresSQL and Vue.JS
+Test driving a couple of technologies.
+
+.Net Core,
+SignalR,
+PostgresSQL
+Vue.JS
+GraphQl
 
 StackOverflow Mock based on this article
 https://www.dotnetcurry.com/aspnet-core/1480/aspnet-core-vuejs-signalr-app
 
-
 # Project Definition
 
-## StackO.Domain
-Project related domain objects (questions, answers etc. ) layer
+## StackO.Core
+
+Project core layer containing models, shared infrastructure elements
+
 ## StackO.Data
+
 Project persistence and data layer
 
+## StackO.Api
+
+GraphQl Api project
 
 # Interesting Links Used
 
