@@ -1,6 +1,6 @@
 using System;
 
-namespace StackO.Domain.Entities {
+namespace StackO.Core.Models  {
     public class Answer {
         public Guid Id { get; set; }
         public Guid QuestionId { get; set; }

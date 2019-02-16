@@ -1,6 +1,6 @@
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using StackO.Domain.Entities;
+using StackO.Core.Models;
 
 namespace StackO.Data.Infrastructure {
     public class StackODBContext : DbContext {

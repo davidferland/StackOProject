@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace StackO.Domain.Entities {
+namespace StackO.Core.Models {
     public class Question {
         public Guid Id { get; set; }
         public string Title { get; set; }
