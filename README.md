@@ -17,13 +17,19 @@ https://www.dotnetcurry.com/aspnet-core/1480/aspnet-core-vuejs-signalr-app
 
 Project core layer containing models, shared infrastructure elements
 
+'created using: dotnet new classlib -n projectname.Core'
+
 ## StackO.Data
 
 Project persistence and data layer
 
+'created using: dotnet new classlib -n projectname.Data'
+
 ## StackO.Api
 
 GraphQl Api project
+
+'created using: dotnet new webapi -n projectname.Api'
 
 # Interesting Links Used
 

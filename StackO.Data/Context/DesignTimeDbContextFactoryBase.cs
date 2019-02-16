@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace StackO.Data.Infrastructure {
+namespace StackO.Data.Context {
     public abstract class DesignTimeDbContextFactoryBase<TContext>:
         IDesignTimeDbContextFactory<TContext> where TContext : DbContext {
             public TContext CreateDbContext (string[] args) {
